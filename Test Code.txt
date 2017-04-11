@@ -1,0 +1,54 @@
+public class userManagement
+{
+
+//Implementation will be taken care later
+     
+     public void addUser()
+     {
+
+       try
+       {
+
+	 return "User registered successfully"
+
+       }
+       catch(exception ex)
+       {
+	  return "user could not be registered"
+       }
+     }
+
+
+
+     public void Login()
+     {
+
+       try
+       {
+
+	 return "Successfully logged in"
+
+       }
+       catch(exception ex)
+       {
+	  return "Could not login"
+       }
+     } 
+
+
+
+     public void EditProfileDetails()
+     {
+
+       try
+       {
+
+	 return "Details successfully changed"
+
+       }
+       catch(exception ex)
+       {
+	  return "Details could not be changed"
+       }
+     }
+}
